@@ -1,0 +1,99 @@
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+  
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+  
+header {
+    margin: 1em 1em 0 1em;
+    padding: 0.5rem 1rem;
+    background-color: #ddbc7e;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 1em 1em 0 1em;
+    padding: 0.5rem 1rem;
+    background-color: #ddbc7e;
+}
+
+body {
+	background-color: white;
+	color: black;
+	font-family: cambria;
+	font-size: 125%;
+	text-align: right;
+}
+
+h1 {
+	color: blue;
+	font-family: arial;
+	font-size: 200%;
+	text-align: center;
+}
+
+h2 {
+	color: green;
+	font-family: verdana;
+	font-size: 150%;
+	text-align: left;
+}
+
+p {
+	color: black;
+	font-family: calibri;
+	font-size: 100%;
+	text-align: left;
+}
+
+#section1 {
+	width: 60%;
+	margin: 15px;
+	background-color: LightGray;
+	padding: 5px;
+	border: thin solid black;
+    border-radius: 15px;
+    float:left;
+}
+
+#section2 {
+	width: 60%;
+	margin: 15px;
+	background-color: LightGray;
+	padding: 5px;
+	border: thin solid black;
+    border-radius: 15px;
+    float:left;
+}
+
+#headshot {
+	max-width: 500px;
+	min-width: 100px;
+	float: left;
+	border: thin solid black;
+	margin: 10px 20px 10px 10px;
+    border-radius: 15px;
+}
+
+#logo {
+	max-width: 500px;
+	min-width: 100px;
+	float: left;
+	border: thin solid black;
+	margin: 10px 20px 10px 10px;
+	border-radius: 15px;
+}
+
+#flag {
+	max-width: 500px;
+	min-width: 100px;
+	float: right;
+	border: thin solid black;
+	margin: 10px 20px 10px 10px;
+	border-radius: 15px;
+}
