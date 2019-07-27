@@ -1,8 +1,3 @@
-#page-container {
-    position: relative;
-    min-height: 100vh;
-}
-  
 #content-wrap {
     padding-bottom: 2.5rem;
 }
@@ -14,12 +9,14 @@ header {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     margin: 1em 1em 0 1em;
     padding: 0.5rem 1rem;
     background-color: #ddbc7e;
+}
+
+main {
+	overflow: auto;
 }
 
 body {
@@ -58,7 +55,6 @@ p {
 	padding: 5px;
 	border: thin solid black;
     border-radius: 15px;
-    float:left;
 }
 
 #section2 {
@@ -68,32 +64,33 @@ p {
 	padding: 5px;
 	border: thin solid black;
     border-radius: 15px;
-    float:left;
 }
 
 #headshot {
 	max-width: 500px;
 	min-width: 100px;
-	float: left;
 	border: thin solid black;
 	margin: 10px 20px 10px 10px;
     border-radius: 15px;
 }
 
+#images {
+	float: right;
+	width: 35%;
+}
+
 #logo {
-	max-width: 500px;
-	min-width: 100px;
-	float: left;
+	width: 100%;
 	border: thin solid black;
 	margin: 10px 20px 10px 10px;
 	border-radius: 15px;
+	display: block;
 }
 
 #flag {
-	max-width: 500px;
-	min-width: 100px;
-	float: right;
+	width: 100%;
 	border: thin solid black;
 	margin: 10px 20px 10px 10px;
 	border-radius: 15px;
+	display: block;
 }
