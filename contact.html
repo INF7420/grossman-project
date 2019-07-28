@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="Description" content="INF 7420 Project">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Russell J. Grossman - Contact</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
     <nav>
@@ -18,32 +24,30 @@
     </nav>
   </header>
   <main>
-    <div>
-      <h1>Section Title</h1>
-      <p>Lorem Ipsum</p>
-      <a href="" aria-labelledby="section-title">Learn More</a>
-      <img id="headshot" src="images/Russ.jpg" alt="Russ Grossman Logo">
-    </div>
-    <div>
-      <h1>Section Title</h1>
-      <p>Lorem Ipsum</p>
-      <a href="" aria-labelledby="section-title">Learn More</a>
-    </div>
+    <form action="https://formspree.io/rjgrossman@gmail.com" method="POST" class="validate">
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name" class="form-input">
+
+      <label for="email">Email</label>
+      <input id="email" type="email" name="_replyto" class="form-input" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" class="form-input" rows="4" required></textarea>
+
+      <input type="submit" value="Send">
+    </form>
   </main>
   <footer>
-    <div>
-      <h2>Start A Project</h2>
-      <p>We are ready for the challenge rjgrossman@gmail.com</p>
-    </div>
-    <div>
-      <h2>Say Hello</h2>
-      <address>20 Herold Road Peabody, MA 01960</address>
-      <tel>508 527 3787</tel>
-    </div>
-    <div>
-      <h2>Jobs</h2>
-      <p>We are always looking for talent rjgrossman@gmail.com</p>
+    <div class="row">
+      <div class="col-sm">
+        Russell J. Grossman © 2019
+      </div>
+      <div class="col-sm social-icons">
+        <a href="https://www.facebook.com/russ.grossman"><i class="fa fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/russgrossman/"><i class="fa fa-instagram"></i></a>
+      </div>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
